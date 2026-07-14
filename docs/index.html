@@ -149,6 +149,16 @@
   .emoticon { font-size: 12px; margin-top: 4px; color: #B8B8D4; }
   .meta-row { font-size: 12px; color: #7A7A9A; margin-top: 6px; }
   .card-arrow { font-size: 12px; color: var(--line); transition: transform 0.15s ease, color 0.15s ease; }
+  .card-links { display:flex; gap:12px; margin-top:8px; }
+  .card-links a, .vendor-table a { color:var(--kakao-yellow); text-decoration:none; }
+  .card-links a:hover, .vendor-table a:hover { text-decoration:underline; }
+  .vendor-table { overflow-x:auto; border:3px solid var(--line); background:var(--panel); }
+  table { width:100%; border-collapse:collapse; }
+  th, td { padding:10px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { color:var(--kakao-yellow); }
+  .vendor-name { display:flex; align-items:center; gap:8px; }
+  .profile { width:30px; height:30px; object-fit:cover; border:2px solid var(--line); }
+  .profile.placeholder { display:inline-flex; align-items:center; justify-content:center; }
   .empty { color: #6A6A88; font-size: 12px; }
   footer {
     text-align: center;
@@ -164,29 +174,191 @@
 <body>
   <header>
     <div class="balloon">■ 카카오톡 무료 이모티콘 주간 리포트 ■</div>
-    <p class="meta">LAST UPDATE · 2026-07-14 09:28 KST</p>
+    <p class="meta">LAST UPDATE · 2026-07-14 18:37 KST</p>
   </header>
 
-  <h2>⏰ 마감 임박</h2>
-  <p class="empty">해당 없음, 다음 주에 또 만나요 🙌</p>
-
-  <h2>🔥 진행중</h2>
+  <h2>🎁 매주 월요일 무료 이모티콘</h2>
   <div class="card-grid">
-      <a class="card" href="https://pf.kakao.com/_example" target="_blank">
-        <div class="card-emoji">✨</div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
         <div class="card-body">
           <div class="card-top">
-            <span class="brand">예시브랜드</span>
+            <span class="brand">카카오 이모티콘샵</span>
             <span class="badge" style="color:#3BB273; background:#EAFBF1;">진행중</span>
           </div>
-          <div class="emoticon">예시 이모티콘</div>
-          <div class="meta-row">예시 · 2026-07-01 ~ 2026-07-31</div>
+          <div class="emoticon">매주 월요일 무료 이모티콘 3종</div>
+          <div class="meta-row">주간 무료 선택 · 2026-07-13 ~ 2026-07-16</div>
+          <div class="card-links">
+            <a href="https://e.kakao.com/weekly_event" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://pf.kakao.com/_IcxhSz" target="_blank" rel="noopener">참조 링크</a>
+          </div>
         </div>
-        <div class="card-arrow">↗</div>
-      </a></div>
+      </div></div>
+
+  <h2>✨ 이번 주 신규</h2>
+  <div class="card-grid">
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">메시카</span>
+            <span class="badge" style="color:#F0A500; background:#FFF3D6;">이번주 신규</span>
+          </div>
+          <div class="emoticon">썸머 에디션</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-13 14:00 ~ 선착순 소진 시</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_fvPxfn/113885314" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://hnclover.tistory.com/1118" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">루이 비통</span>
+            <span class="badge" style="color:#F0A500; background:#FFF3D6;">이번주 신규</span>
+          </div>
+          <div class="emoticon">하이 썸머 에디션</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-13 ~ 선착순 소진 시</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_gDpbC/113913063" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3687" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">열혈강호: 넥스트</span>
+            <span class="badge" style="color:#F0A500; background:#FFF3D6;">이번주 신규</span>
+          </div>
+          <div class="emoticon">한비광·담화린</div>
+          <div class="meta-row">카카오게임 사전예약 · 2026-07-10 ~ 선착순 8만 건 소진 시</div>
+          <div class="card-links">
+            <a href="https://game.kakao.com/ar/INXQoe?rtc=atb_K-GAM02M0019&token=ee8bd053-2b02-411e-889e-9c6d86687437" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3685" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">에어부산</span>
+            <span class="badge" style="color:#F0A500; background:#FFF3D6;">이번주 신규</span>
+          </div>
+          <div class="emoticon">에부리·러부리·미컁</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-08 14:00 ~ 선착순 소진 시</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_WGxafM/113898483" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3684" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">청년사관학교</span>
+            <span class="badge" style="color:#F0A500; background:#FFF3D6;">이번주 신규</span>
+          </div>
+          <div class="emoticon">새싹이</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-01 ~ 선착순 4만 명 소진 시</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_xnxnxoWG" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3683" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">팀버랜드</span>
+            <span class="badge" style="color:#F0A500; background:#FFF3D6;">이번주 신규</span>
+          </div>
+          <div class="emoticon">힙스터 꼬미</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-01 ~ 선착순 소진 시</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_xaxoxmUb" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3680" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div></div>
+
+  <h2>🔥 진행중</h2>
+  <p class="empty">해당 없음, 다음 주에 또 만나요 🙌</p>
 
   <h2>📅 예정</h2>
   <p class="empty">해당 없음, 다음 주에 또 만나요 🙌</p>
+
+  <h2>✅ 마감</h2>
+  <div class="card-grid">
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">성남시청</span>
+            <span class="badge" style="color:#77778D; background:#29293A;">마감</span>
+          </div>
+          <div class="emoticon">성나미</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-01 ~ 일자 미확인</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_NkLBV/111573401" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3679" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">한국의갯벌세계유산등재추진단</span>
+            <span class="badge" style="color:#77778D; background:#29293A;">마감</span>
+          </div>
+          <div class="emoticon">갯벌 가디언즈</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-07-06 14:00 ~ 2026-07-06</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_eIfnX/113878683" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://emoticonews.tistory.com/3682" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">국가과학기술연구회</span>
+            <span class="badge" style="color:#77778D; background:#29293A;">마감</span>
+          </div>
+          <div class="emoticon">아톰&비트</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-06-30 ~ 일자 미확인</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_xlCYfn" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://blog.naver.com/emoticonews/224331762274" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🎁</div>
+        <div class="card-body">
+          <div class="card-top">
+            <span class="brand">서민금융진흥원</span>
+            <span class="badge" style="color:#77778D; background:#29293A;">마감</span>
+          </div>
+          <div class="emoticon">채움포용 채우미</div>
+          <div class="meta-row">카카오톡 채널 추가 · 2026-04-30 14:00 ~ 일자 미확인</div>
+          <div class="card-links">
+            <a href="https://pf.kakao.com/_CrWnn/110575270" target="_blank" rel="noopener">공식 링크</a>
+            <a href="https://hnclover.tistory.com/1119" target="_blank" rel="noopener">참조 링크</a>
+          </div>
+        </div>
+      </div></div>
+
+  <h2>🏢 주요 업체 리스트</h2>
+  <div class="vendor-table"><table><thead><tr><th>번호</th><th>카카오톡 채널명·업체</th><th>유형</th><th>대표 링크</th><th>이벤트</th></tr></thead><tbody><tr><td>1</td><td><span class="vendor-name"><span class="profile placeholder">·</span>국립중앙박물관</span></td><td>이벤트 신청</td><td><a href="https://b.kakao.com/views/findyourtreasure" target="_blank" rel="noopener">카카오 이벤트</a></td><td>1건</td></tr><tr><td>2</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_EZlvK.jpg" alt="그라프 프로필">그라프</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_EZlvK" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>3</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_JsxcZK.jpg" alt="더후 프로필">더후</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_JsxcZK" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>4</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_dyBaT.jpg" alt="디올 프로필">디올</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_dyBaT" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>5</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_sujGu.jpg" alt="디즈니 프로필">디즈니</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_sujGu" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>6</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_JGvgZ.jpg" alt="랄프 로렌 프로필">랄프 로렌</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_JGvgZ" target="_blank" rel="noopener">카카오 공식채널</a></td><td>2건</td></tr><tr><td>7</td><td><span class="vendor-name"><span class="profile placeholder">·</span>로에베</span></td><td>이벤트 신청</td><td><a href="https://e.kakao.com/t/loewe-180-years" target="_blank" rel="noopener">카카오 이모티콘샵</a></td><td>1건</td></tr><tr><td>8</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_Dsnxlxl.jpg" alt="롱샴코리아 프로필">롱샴코리아</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_Dsnxlxl" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>9</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_gDpbC.jpg" alt="루이 비통 프로필">루이 비통</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_gDpbC" target="_blank" rel="noopener">카카오 공식채널</a></td><td>4건</td></tr><tr><td>10</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_fvPxfn.jpg" alt="메시카 프로필">메시카</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_fvPxfn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>11</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_uxkxeWC.jpg" alt="미우미우 프로필">미우미우</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_uxkxeWC" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>12</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_kxcsEC.jpg" alt="반클리프 아펠 프로필">반클리프 아펠</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_kxcsEC" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>13</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_wxofhxj.jpg" alt="발렌시아가 프로필">발렌시아가</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_wxofhxj" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>14</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_UvxhBxd.jpg" alt="버버리 프로필">버버리</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_UvxhBxd" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>15</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_xkxcMWj.jpg" alt="보테가 베네타 프로필">보테가 베네타</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_xkxcMWj" target="_blank" rel="noopener">카카오 공식채널</a></td><td>2건</td></tr><tr><td>16</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_PTMxaT.jpg" alt="볼보자동차코리아 프로필">볼보자동차코리아</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_PTMxaT" target="_blank" rel="noopener">카카오 공식채널</a></td><td>2건</td></tr><tr><td>17</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_XIRxos.jpg" alt="부쉐론 프로필">부쉐론</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_XIRxos" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>18</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_gFqVn.jpg" alt="분다버그 코리아 프로필">분다버그 코리아</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_gFqVn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>19</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_Bswxfxb.jpg" alt="불가리 프로필">불가리</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_Bswxfxb" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>20</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_NkLBV.jpg" alt="성남시청 프로필">성남시청</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_NkLBV" target="_blank" rel="noopener">카카오 공식채널</a></td><td>2건</td></tr><tr><td>21</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_BxgxmSK.jpg" alt="쇼메 프로필">쇼메</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_BxgxmSK" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>22</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_xmCvpn.jpg" alt="슈링크홈 프로필">슈링크홈</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_xmCvpn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>23</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_ktGhG.jpg" alt="젠톡 프로필">젠톡</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_ktGhG" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>24</td><td><span class="vendor-name"><span class="profile placeholder">·</span>질문하고 공유하고 블랙춘 이모티콘 받자!</span></td><td>이벤트 신청</td><td><a href="https://b.kakao.com/views/komi/promotions/blackchoon-emoticon" target="_blank" rel="noopener">카카오 이벤트</a></td><td>1건</td></tr><tr><td>25</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_CrWnn.jpg" alt="청년도약계좌 (서민금융진흥원) 프로필">청년도약계좌 (서민금융진흥원)</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_CrWnn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>26</td><td><span class="vendor-name"><span class="profile placeholder">·</span>춘구마</span></td><td>이벤트 신청</td><td><a href="https://e.kakao.com/choonguma" target="_blank" rel="noopener">카카오 이모티콘샵</a></td><td>1건</td></tr><tr><td>27</td><td><span class="vendor-name"><span class="profile placeholder">·</span>카카오</span></td><td>이벤트 신청</td><td><a href="https://b.kakao.com/views/2024/golgolz-emoticon" target="_blank" rel="noopener">카카오 이벤트</a></td><td>1건</td></tr><tr><td>28</td><td><span class="vendor-name"><span class="profile placeholder">·</span>카카오 이모티콘샵</span></td><td>이벤트 신청</td><td><a href="https://e.kakao.com/weekly_event" target="_blank" rel="noopener">카카오 이모티콘샵</a></td><td>3건</td></tr><tr><td>29</td><td><span class="vendor-name"><span class="profile placeholder">·</span>카카오웹툰</span></td><td>이벤트 신청</td><td><a href="https://b.kakao.com/views/promotion/2025/ryanbegins-emoticon" target="_blank" rel="noopener">카카오 이벤트</a></td><td>1건</td></tr><tr><td>30</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_IcxhSz.jpg" alt="카카오이모티콘 프로필">카카오이모티콘</span></td><td>이벤트 신청</td><td><a href="https://pf.kakao.com/_IcxhSz" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>31</td><td><span class="vendor-name"><span class="profile placeholder">·</span>카카오프렌즈</span></td><td>이벤트 신청</td><td><a href="https://e.kakao.com/store/grouplist/wide_minibaseball_250610" target="_blank" rel="noopener">카카오 이모티콘샵</a></td><td>1건</td></tr><tr><td>32</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_xixbaLb.jpg" alt="쿠팡플레이 프로필">쿠팡플레이</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_xixbaLb" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>33</td><td><span class="vendor-name"><span class="profile placeholder">·</span>타사키</span></td><td>이벤트 신청</td><td><a href="https://e.kakao.com/t/tasaki-70th-anniversary-collection" target="_blank" rel="noopener">카카오 이모티콘샵</a></td><td>1건</td></tr><tr><td>34</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_SxjKcn.jpg" alt="튜더 프로필">튜더</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_SxjKcn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>35</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_Islxaj.jpg" alt="프라다 프로필">프라다</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_Islxaj" target="_blank" rel="noopener">카카오 공식채널</a></td><td>2건</td></tr><tr><td>36</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_jQYTs.jpg" alt="피아제 프로필">피아제</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_jQYTs" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>37</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_LvLxkn.jpg" alt="휴메인 월드 포 애니멀즈 프로필">휴메인 월드 포 애니멀즈</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_LvLxkn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>38</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_UCxnTn.jpg" alt="KoAct ETF 프로필">KoAct ETF</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_UCxnTn" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr><tr><td>39</td><td><span class="vendor-name"><img class="profile" src="./assets/channel-profiles/_QvxaEC.jpg" alt="LACOSTE 프로필">LACOSTE</span></td><td>카카오톡 채널 추가</td><td><a href="https://pf.kakao.com/_QvxaEC" target="_blank" rel="noopener">카카오 공식채널</a></td><td>1건</td></tr></tbody></table></div>
 
   <footer>
     매주 갱신됩니다 · 카카오톡 채널 추가하고 무료 이모티콘 받아가세요
